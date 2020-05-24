@@ -18,6 +18,7 @@ It leverages the following components from the Jetpack library:
 
 * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+* [Recycler View](https://developer.android.com/reference/android/support/v7/widget/RecyclerView)
 * [Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding adapters
 * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) with the SafeArgs plugin for parameter passing between fragments
 .
