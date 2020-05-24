@@ -21,7 +21,20 @@ It leverages the following components from the Jetpack library:
 * [Recycler View](https://developer.android.com/reference/android/support/v7/widget/RecyclerView)
 * [Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding adapters
 * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) with the SafeArgs plugin for parameter passing between fragments
-.
+
+Explanation of Concepts used in this project:
+
+* View Model:The overview [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) is responsible for making the network call to get the Mars real estate information. The detail [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) holds details for the single piece of Mars real estate that's displayed in the detail fragment. 
+
+* Live Data: For each [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), you use [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) with lifecycle-aware data binding to update the app UI when the data changes.
+
+* Recycler View: App will use the Glide library to load and display the images, and a [Recycler View](https://developer.android.com/reference/android/support/v7/widget/RecyclerView) to create the grid layout for the images
+
+* Data Binding: The [Data Binding](https://developer.android.com/topic/libraries/data-binding/) Library is a support library that allows you to bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
+
+* Navigation: App uses the [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) component to navigate between the two fragments, and to pass the selected property as an argument.
+
+
 
 Getting Started
 ---------------
