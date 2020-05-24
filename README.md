@@ -1,7 +1,7 @@
-MarsRealEstate - Starter Code
+MarsRealEstate
 ==============================
 
-Starter code for Android Kotlin Fundamentals Codelab 8.1 Getting data from the internet
+Project Made During 30 days of Kotlin
 
 Introduction
 ------------
@@ -18,16 +18,6 @@ The app also leverages [ViewModel](https://developer.android.com/topic/libraries
 [Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding 
 adapters, and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) 
 with the SafeArgs plugin for parameter passing between fragments.
-
-Pre-requisites
---------------
-
-You need to know:
-- How to create and use fragments.
-- How to navigate between fragments, and use safeArgs to pass data between fragments.
-- How to use architecture components including ViewModel, ViewModelProvider.Factory, LiveData, and LiveData transformations.
-- How to use coroutines for long-running tasks.
-
 
 Getting Started
 ---------------
