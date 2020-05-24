@@ -22,8 +22,8 @@ It leverages the following components from the Jetpack library:
 * [Data Binding](https://developer.android.com/topic/libraries/data-binding/) with binding adapters
 * [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) with the SafeArgs plugin for parameter passing between fragments
 
-Explanation of Concepts used in this project:
-
+Explanation Of Concepts used in this project:
+------------
 * View Model:The overview [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) is responsible for making the network call to get the Mars real estate information. The detail [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) holds details for the single piece of Mars real estate that's displayed in the detail fragment. 
 
 * Live Data: For each [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), you use [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) with lifecycle-aware data binding to update the app UI when the data changes.
@@ -34,6 +34,14 @@ Explanation of Concepts used in this project:
 
 * Navigation: App uses the [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/) component to navigate between the two fragments, and to pass the selected property as an argument.
 
+
+Screenshots
+---------------
+![Screenshot 1](screenshots/screen_1.jpg)
+![Screenshot 2](screenshots/screen_2.jpg)
+![Screenshot 3](screenshots/screen_3.jpg)
+![Screenshot 4](screenshots/screen_4.jpg)
+![Screenshot 5](screenshots/screen_5.jpg)
 
 
 Getting Started
