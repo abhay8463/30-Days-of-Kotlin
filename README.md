@@ -6,7 +6,7 @@ Project Made During 30 days of Kotlin
 Introduction
 ------------
 
-MarsRealEstate is a demo app that shows available properties for sale and for rent on Mars.
+MarsRealEstate is a app that shows available properties for sale and for rent on Mars.
 The property data is stored on a Web server as a REST web service.  This app demonstrated
 the use of [Retrofit](https://square.github.io/retrofit/) to make REST requests to the 
 web service, [Moshi](https://github.com/square/moshi) to handle the deserialization of the 
